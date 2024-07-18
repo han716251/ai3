@@ -26,3 +26,4 @@ print(screenColor)
 print(windowHeight)
 MW=math_score+windowHeight
 print(MW)
+print('git study')
