@@ -20,7 +20,7 @@ while menu != 5 :
     if menu == 1 :
         print()
         print('1. 학생 이름 삽입하기')
-        newname = input('이름 : ')    
+        newname = input('이름 : ')
         name.append(newname)
         print()
 
