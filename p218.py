@@ -118,9 +118,12 @@ print('합계 : %d'%sum)'''
 numbers=[7,9,15,18,30,-3,7,12,-16,-12]
 sum=0
 i = 0
-
+a=[]
 while i < len(numbers) :
-    if i % 2 != 0 :
+    if i+1 % 2 == 0 :
         sum = sum + numbers[i]
         i = i +1
+        a.append(numbers[i])
+print('짝수 번째 요소 :',a)
 print('합계 : %d'%sum)
+

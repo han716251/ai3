@@ -143,4 +143,3 @@ print(rdata.text)'''
 for i in range(len(strings)) :
     for j in range(len(strings[i])) :
         print(strings[i][j])'''
-
